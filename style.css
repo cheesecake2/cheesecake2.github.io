@@ -6,10 +6,6 @@ p {
 	font-size: 24px;
   font-family: 'Josefin Sans', sans-serif;
   color: #585858;
-	/*border:3px solid black;
-	border-width: 3px;
-	width: 800px;
-	background-color: white;*/
 	padding: 3px white;
 }
 
@@ -50,6 +46,20 @@ h2 {
     color:#585858;
     text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.top-bar-list{
+  text-align: center;
+}
+
+.top-bar-item{
+  font-size: 24;
+  margin-left: 0, 50;
+}
+
+.top-bar-item:hover{
+  font-size: 30;
 }
 
 /*.top-bar ul{
@@ -194,10 +204,7 @@ h2 {
 }
 
 .skill__icon {
-  color: #1b998b;
-/*  height: 50px;
-  width: 50px;
-*/  
+  color: #1b998b; 
 	font-size: 50px;
 	text-shadow: -5px -5px 0 #fff;
 }
@@ -234,7 +241,7 @@ h2 {
 
 
 .box-container {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-right: 20px;
   overflow: hidden;
   padding: 10px;
